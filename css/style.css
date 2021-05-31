@@ -1,0 +1,50 @@
+body{
+    background-image: url("../images/tim3.jpg");
+    /*para que no se repita la imagen*/
+    background-repeat: no-repeat ;
+     /*mantener fija una imagen*/
+    background-attachment: fixed;
+    /*Tamaño de la imagen*/
+    background-size: cover;
+    /*Da un espacio tipo sangria*/
+    padding: 5%;
+ 
+}
+.titulo{
+    font-family: "Raleway", sans-serif;
+    font-size: 48px;
+}
+.subtitulo{
+    font-family: 'Courier New', Courier, monospace, Times, serif;
+    font-size: 25px;
+    color:rgb(0, 0, 0);
+    background-color: bisque; 
+    margin-left: 0%;
+    margin-right: 50%;
+
+}
+.linea{
+    border: 1px solid;
+    border-color: rgb(255, 252, 252);
+    margin-left: 0%;
+    margin-right: 50%;
+}
+.barra{
+    background-color: rgba(207, 218, 221, 0.3);
+    margin-left: 0%;
+    margin-right: 50%;
+    
+    
+}
+a{
+    color: rgb(13, 13, 14);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px; 
+    border-style: outset;
+    border-color:rgb(240, 221, 192);
+    text-decoration: none;
+    background-color: rgba(241, 177, 103, 0.87);
+}
+li{
+    margin-top:  30px;
+}
